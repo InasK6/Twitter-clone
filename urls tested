@@ -1,0 +1,17 @@
+http://localhost:8080/Birdy_TechnoWeb2/user?login=Aznavour
+
+http://localhost:8080/Birdy_TechnoWeb/user?login=Aznavour
+réponse:
+{"Prenom":"a","messages:":{"messages":[{"date":"Thu May 21 11:45:22 CEST 2020","_id":"5ec64db26b194e77dad953fb","idU":3,"login":"Aznavour","message":"La bohème","likes":0}]},"followed ":{"liste utilisateurs":[]},"login":"Aznavour","Nom":"a"}
+
+doPost:
+création:
+http://localhost:8080/Birdy_TechnoWeb/user?login=Nono&nomU=Brown&prenomU=Nono&mdp=1234&dateNaiss=2005-07-23&mail=Nono@hotmail.com&op=create
+http://localhost:8080/Birdy_TechnoWeb/user?login=Laure&nomU=Brown&prenomU=Laure&mdp=1234&dateNaiss=1985-07-23&mail=laure@lip6.fr&op=create
+
+
+update:
+http://localhost:8080/Birdy_TechnoWeb/user?login=Laure&nomU=Brown&prenomU=Laure&mdp=1234&dateNaiss=1985-07-23&mail=laure@lip6.fr&newlogin=IT&op=update
+
+delete:
+http://localhost:8080/Birdy_TechnoWeb/user?login=IT&mdp=1234
